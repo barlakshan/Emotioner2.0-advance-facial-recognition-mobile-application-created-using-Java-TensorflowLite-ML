@@ -7,5 +7,7 @@
     <color name="gray">#270C19</color>
     <color name="sky_blue">#DBE9F7</color>
     <color name="lite_pink">#DEB5C8</color>
+    <color name="lite_yellow">#ffe3af</color>
+
 
 </resources>
