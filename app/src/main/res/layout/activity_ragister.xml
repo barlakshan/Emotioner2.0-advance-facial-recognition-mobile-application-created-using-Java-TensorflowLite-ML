@@ -9,10 +9,31 @@
     tools:context=".Ragister">
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="410dp"
-        android:layout_height="439dp"
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_tight" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bottom_left" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038"
         app:srcCompat="@drawable/singup" />
 
     <LinearLayout
@@ -97,8 +118,6 @@
             android:textColor="@color/gray"
             android:textSize="18sp" />
 
-
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="50dp"
@@ -134,7 +153,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
             android:background="@drawable/gradient_button"
-            android:text="Register"
+            android:text="Sign Up"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
