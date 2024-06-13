@@ -4,10 +4,12 @@
     <color name="white">#FFFFFFFF</color>
     <color name="pink">#D42B5F</color>
     <color name="purple">#4A32CB</color>
-    <color name="gray">#270C19</color>
+    <color name="brown">#270C19</color>
     <color name="sky_blue">#DBE9F7</color>
     <color name="lite_pink">#DEB5C8</color>
     <color name="lite_yellow">#ffe3af</color>
+    <color name="gray">#888888</color>
+
 
 
 </resources>
